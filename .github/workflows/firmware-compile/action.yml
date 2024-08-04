@@ -29,6 +29,7 @@ runs:
           - name: esp32:esp32
             source-url: https://github.com/espressif/arduino-esp32/releases/download/2.0.14/package_esp32_index.json
             version: 2.0.14
+        cli-version: 1.0.3
         libraries: |
           - source-path: ${{ github.workspace }}/libs/Adafruit_GFX_Library
           - source-path: ${{ github.workspace }}/libs/ArduinoAsync-master
